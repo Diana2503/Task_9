@@ -9,12 +9,12 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.List;
 
-public class ButtonResultListener implements ActionListener {
+public class CreateANewListOfMinimumDigitsListener implements ActionListener {
     JTextField inputArray;
     JTextField resultOfProgram;
     JTextField textField1;
 
-    public ButtonResultListener(JTextField inputArray, JTextField resultOfProgram, JTextField textField1) {
+    public CreateANewListOfMinimumDigitsListener(JTextField inputArray, JTextField resultOfProgram, JTextField textField1) {
         this.inputArray = inputArray;
         this.resultOfProgram = resultOfProgram;
         this.textField1 = textField1;

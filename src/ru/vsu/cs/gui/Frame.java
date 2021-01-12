@@ -1,6 +1,6 @@
 package ru.vsu.cs.gui;
 
-import ru.vsu.cs.gui.listener.ButtonResultListener;
+import ru.vsu.cs.gui.listener.CreateANewListOfMinimumDigitsListener;
 
 import javax.swing.*;
 
@@ -20,6 +20,6 @@ public class Frame extends JFrame {
         pack();
         setBounds(550, 300, 500, 300);
 
-        buttonCreateNewArray.addActionListener(new ButtonResultListener(inputArray, resultOfProgram, textField1));
+        buttonCreateNewArray.addActionListener(new CreateANewListOfMinimumDigitsListener(inputArray, resultOfProgram, textField1));
     }
 }
